@@ -83,5 +83,15 @@
         "key": "alt+delete",
         "command": "-deleteWordRight",
         "when": "textInputFocus && !editorReadonly"
+    },
+    {
+        "key": "cmd+f",
+        "command": "list.find",
+        "when": "listFocus && listSupportsFind"
+    },
+    {
+        "key": "alt+cmd+f",
+        "command": "-list.find",
+        "when": "listFocus && listSupportsFind"
     }
 ]
